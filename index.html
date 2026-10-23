@@ -22,9 +22,9 @@
 <script>
 // 실제 배포된 주소를 확인하여 아래 값에 입력하세요. 빈 값이면 버튼 대신 안내문이 나타납니다.
 const LINKS={
- arPanel:'', // 예: https://사용자명.github.io/설명판-ar/
- arVideo:'', // 예: https://사용자명.github.io/영상-ar/
- mr:'',      // 예: https://사용자명.github.io/손가락-mr/
+ arPanel:'https://ilmac-knu.github.io/season3-ar-plus/', // 예: https://사용자명.github.io/설명판-ar/
+ arVideo:'https://ilmac-knu.github.io/ar-travel/', // 예: https://사용자명.github.io/영상-ar/
+ mr:'https://ilmac-knu.github.io/statue-liberty-touch-mr/',      // 예: https://사용자명.github.io/손가락-mr/
 };
 const STORE='liberty-xr-mission-v1';
 let done=[false,false,false];try{const s=JSON.parse(localStorage.getItem(STORE));if(Array.isArray(s)&&s.length===3)done=s.map(Boolean)}catch(e){}
